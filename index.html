@@ -6,71 +6,58 @@
   <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
   <link href="css/akan.css" rel="stylesheet" type="text/css">
   <script src="scripts.js"></script>
-  <
-<body>
-  <div class="container">
-    <div class="description">
-      <div class="jumbotron">
-
-        <!--<img src="css/akan1.jpg" alt="" class="responsive">-->
-
-        <h1>Akan Name Calculator</h1>
-        <h3>Calculate your Akan name</h3>
-        <p >Most Ghanaians have at least one name from this system, even if they also have an English or Christian name.</p>
-        <p> Notable figures with day names include Ghana's Kwame Nkrumah and General Kofi Annan.</p>
-        <blockquote class="blockquote text-center">
-          <p class="mb-0"> Woforo dua pa a na yepia wo
-            Literally: It is when you climb a good tree that we push you.</p>
-            <footer class="blockquote-footer">akan proverb </footer>
-          </blockquote>
-          <p><b>how exciting!</b></p>
+  <body>
+    <div class="container">
+      <div class="description">
+        <div class="jumbotron">
+          <h1>Akan Name Calculator</h1>
+          <h3>Calculate your day name</h3>
+          <p >Most Ghanaians have at least one name from this system, even if they also have an English or Christian name.</p>
+          <p> Notable figures with day names include Ghana's Kwame Nkrumah and General Kofi Annan.</p>
+          <blockquote class="blockquote text-center">
+            <p class="mb-0"> Woforo dua pa a na yepia wo
+              Literally: It is when you climb a good tree that we push you.</p>
+              <footer class="blockquote-footer">akan proverb </footer>
+            </blockquote>
+            <p><b>how exciting!</b></p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <img src="css/religionakan.jpg" class="img-fluid" alt="Responsive image">
+        </div>
+        <div class="col-md-4">
+          <img src="css/culture.jpeg" class="img-fluid" alt="Responsive image">
+        </div>
+        <div class="col-md-4">
+          <img src="css/chiefdom.jpg" class="img-fluid" alt="Responsive image">
         </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col-md-4">
-
-        <img src="css/religionakan.jpg" class="img-fluid" alt="Responsive image">
+    <div class="card">
+      <div class="card-title">
+        <h4><b>Insert gender here</b></h4>
       </div>
-      <div class="col-md-4">
-        <img src="css/culture.jpeg" class="img-fluid" alt="Responsive image">
+      <div class="card-body">
+        <div class="checkbox" name="gender"id="gender" >
+          <label for="male" >male:</label>
+          <input type="radio" name="gender" id="male" value="male" >
+          <label for="female">female:</label>
+          <input type="radio" name="gender" id="female" value="female"  >
+          <button  class="btn btn-success" onclick="getValue()" id="btn1" type="button" >submit</button>
+        </div>
       </div>
-    <div class="col-md-4">
-
-        <img src="css/chiefdom.jpg" class="img-fluid" alt="Responsive image">
+      <div class="dob">
+        <h4><b>When is your birthday ?</b></h4>
+        <div class="button">
+          <input type ="text" name = "birthday" VALUE = "DD">
+          <input type ="text" name = "birthday" VALUE = "MM">
+          <input type ="text" name = "birthday" VALUE = "YY">
+          <button  class="btn btn-success" onclick="getValue()" id="btn2" type="button" >submit</button>
+        </div>
       </div>
-  </div>
-
-  </div>
-  <div class="card">
-    <div class="card-title">
-    <h4><b>Insert gender here</b></h4>
-  </div>
-  <div class="card-body">
-
-    <div class="checkbox" name="gender"id="gender" >
-      <label for="male" >male:</label>
-      <input type="radio" name="gender" id="male" value="male" >
-
-      <label for="female">female:</label>
-      <input type="radio" name="gender" id="female" value="female"  >
-      <button  class="btn btn-success" onclick="getValue()" id="btn1" type="button" >submit</button>
-    </div>
-
-  </div>
-  <div class="dob">
-    <h4><b>When is your birthday ?</b></h4>
-    <div class="button">
-      <input type ="text" name = "birthday" VALUE = "DD">
-      <input type ="text" name = "birthday" VALUE = "MM">
-      <input type ="text" name = "birthday" VALUE = "YY">
-      <button  class="btn btn-success" onclick="getValue()" id="btn2" type="button" >submit</button>
-    
     </div>
   </div>
-</div>
-</div>
-
-
 </body>
 </html>
