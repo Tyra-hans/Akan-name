@@ -1,22 +1,27 @@
-var cc= YY[2][3] + 1;
-function getValue(){
-  var male= document.getElementById("male").value;
-  var female= document.getElementById("female").value;
-  
+//var cc= YY[2][3] + 1;
+
+
+function getValue()
+{
+  var male = document.getElementById("male");
+  var female= document.getElementById("female");
+    if (male.checked==true)
+    alert("you checked: " + male.value);
+   else if(female.checked==true)
+  alert("you checked: " +female.value);
+
+else
+alert("please select a gender");
 }
 
+//function calculate (){
+  //var dayOfTheWeek= ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) mod 7;
+//if (dayOfTheWeek > 7 || dayOfTheWeek <1){
+//  window.alert("Please enter valid birthday");
+//  return ;
+//
 
-function calculate (){
-  var dayOfTheWeek= ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) mod 7;
-if (dayOfTheWeek > 7 || dayOfTheWeek <1){
-  window.alert("Please enter valid birthday");
-  return ;
-}
-
-
-}
-var dayOfTheWeek= ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) mod 7
+//var dayOfTheWeek= ( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD ) mod 7
 
 
-var day= [Sunday , Monday , Tuesday , Wednesday , Thursday , Friday , Saturday];
-var
+//var
