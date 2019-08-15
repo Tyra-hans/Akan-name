@@ -1,5 +1,9 @@
 var cc= YY[2][3] + 1;
-
+function getValue(){
+  var male= document.getElementById("male").value;
+  var female= document.getElementById("female").value;
+  
+}
 
 
 function calculate (){

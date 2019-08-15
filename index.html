@@ -49,10 +49,11 @@
   <div class="card-body">
     <div class="checkbox">
       <label for="male" >male:</label>
-      <input type="radio" name="gender" value="male" placeholder="male">
+      <input type="radio" name="gender" id="male" value="male" placeholder="male">
       <!-- <p id="checkbox" style="display:none">male is CHECKED!</p> -->
       <label for="female">female:</label>
-      <input type="radio" name="gender"  value="female" placeholder="female">
+      <input type="radio" name="gender" id="female" value="female" >
+      <span  class="btn btn-success" onclick="getValue(); return true;" type="button">submit</span>
     </div>
   </div>
   <div class="dob">
@@ -61,7 +62,7 @@
       <input type ="text" name = "birthday" VALUE = "DD">
       <input type ="text" name = "birthday" VALUE = "MM">
       <input type ="text" name = "birthday" VALUE = "YY">
-      <span  class="btn btn-success" value="submit" onclick="getValue" type="button">submit</span>
+    <!--  <span  class="btn btn-success" value="submit" onclick="getValue()" type="button">submit</span>-->
     </div>
   </div>
 </div>
