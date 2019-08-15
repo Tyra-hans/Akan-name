@@ -39,11 +39,13 @@ p.mb-0 {
   color: #CB4335;
 }
 
-.gender{
+.card{
   color: #D1F2EB;
   font-size: 15px;
   align-content: center;
   align-items: center;
+  background-color: #145A32;
+  margin-top: 20px;
 }
 img {
   width: 100%;
