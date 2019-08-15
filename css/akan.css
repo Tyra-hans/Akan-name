@@ -1,39 +1,47 @@
 body{
-  background-image: url(akan1.jpg);
+/*background-image: url(akan1.jpg);
  background-repeat: no-repeat;
  background-size: cover;
+}*/
+margin: 15px;
+background-color: #145A32;
 }
 .jumbotron{
   background-color: #F5B041;
+
 }
 h1 {
   color: #CB4335;
-  font-size: 50px;
+  font-size: 40px;
   font-family: sans-serif;
   text-align: center;
 }
 h3 {
   color:#145A32;
-  font-size: 25px;
+  font-size: 15px;
   font-family: sans-serif;
   text-align: center;
 
 }
 h4 {
   color: #D1F2EB;
-  font-size: 30px;
+  font-size: 20px;
 
 }
 p {
-  color: #D1F2EB;
-  font-size: 30px;
+  color:#212121;
+  font-size: 20px;
   font-family: cursive;
   text-align: center;
 
 }
+p.mb-0 {
+  color: #CB4335;
+}
+
 .gender{
   color: #D1F2EB;
-  font-size: 20px;
+  font-size: 15px;
   align-content: center;
   align-items: center;
 }
