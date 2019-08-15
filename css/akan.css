@@ -1,12 +1,29 @@
 body{
-  background-image: url(455.jpg);
+  background-image: url(akan1.jpg);
  background-repeat: no-repeat;
  background-size: cover;
- color: #1C2833  ;
- font-size: 30px;
-
 }
-h1{
-  background-color: #BDC3C7;
+h1 {
+  color: #FC8600;
+  font-size: 50px;
+  font-family: sans-serif;
   text-align: center;
+}
+h3 {
+  color:#D5D8DC;
+  font-size: 25px;
+  font-family: sans-serif;
+  text-align: center;
+}
+p {
+  color: #D1F2EB;
+  font-size: 20px;
+  font-family: cursive;
+  text-align: center;
+}
+.gender{
+  color: #D1F2EB;
+  font-size: 20px;
+  align-content: center;
+  align-items: center;
 }
