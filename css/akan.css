@@ -17,12 +17,18 @@ h3 {
   font-size: 25px;
   font-family: sans-serif;
   text-align: center;
+
+}
+h4 {
+  color: #CB4335;
+  
 }
 p {
   color: #D1F2EB;
-  font-size: 20px;
+  font-size: 30px;
   font-family: cursive;
   text-align: center;
+
 }
 .gender{
   color: #D1F2EB;
@@ -31,6 +37,6 @@ p {
   align-items: center;
 }
 img {
-  width: 90%;
-  float: inherit;
+  width: 100%;
+
 }
