@@ -6,7 +6,7 @@
   <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
   <link href="css/akan.css" rel="stylesheet" type="text/css">
   <script src="scripts.js"></script>
-</head>
+  <
 <body>
   <div class="container">
     <div class="description">
@@ -48,17 +48,20 @@
   </div>
   <div class="card-body">
     <div class="checkbox">
-      <label for="male">male:</label>
+      <label for="male" >male:</label>
       <input type="radio" name="gender" value="male" placeholder="male">
       <!-- <p id="checkbox" style="display:none">male is CHECKED!</p> -->
       <label for="female">female:</label>
-      <input type="radio" name="gender" value="female" placeholder="female">
+      <input type="radio" name="gender"  value="female" placeholder="female">
     </div>
   </div>
   <div class="dob">
     <h4><b>When is your birthday ?</b></h4>
     <div class="button">
-      <input type ="text" name = "birthday" VALUE = "DD/MM/YYYY"><input type="button" class="btn btn-success" value="submit">
+      <input type ="text" name = "birthday" VALUE = "DD">
+      <input type ="text" name = "birthday" VALUE = "MM">
+      <input type ="text" name = "birthday" VALUE = "YY">
+      <span  class="btn btn-success" value="submit" onclick="getValue" type="button">submit</span>
     </div>
   </div>
 </div>
