@@ -18,14 +18,14 @@ function getValue()
   else if (male.checked ==false && female.checked ==false) {
     alert("oops! select gender")
   }
-  var daysOfTheWeek = ["Sunday","Monday" , "Tuesday","Wednesday", "Thursday" ,"Friday", "Saturday" ];
+  var daysOfTheWeek = ["Sunday","Monday" ,"Tuesday","Wednesday", "Thursday" ,"Friday", "Saturday" ];
   var maleNames= ["Kwasi" ,"Kwadwo","Kwabena", "Kwaku" , "Yaw","Koffi", "Kwame"];
   var femaleNames =["Akosua","Adwoa","Abenaa","Akua","yaa", "Afua", "Ama"];
   var century =year.slice(0,2);
   var birthday = Math.floor(( ( (century/4) -2*century-1) + ((5*year/4) ) + ((26*(month+1)/10)) + day )% 7)
   console.log(birthday);
   if (male==true && birthday==0) {
-    
+
 
 
   }

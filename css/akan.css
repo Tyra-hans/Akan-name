@@ -1,3 +1,4 @@
+
 body{
 /*background-image: url(akan1.jpg);
  background-repeat: no-repeat;
@@ -8,17 +9,20 @@ background-color: #145A32;
 }
 .jumbotron{
   background-color: #F5B041;
+  align-content: center;
+}
 
 }
 h1 {
   color: #CB4335;
   font-size: 40px;
-  font-family: sans-serif;
-  text-align: center;
+  font-family:sans-serif;
+  !text-align: center;
 }
+
 h3 {
   color:#145A32;
-  font-size: 15px;
+  font-size: 20px;
   font-family: sans-serif;
   text-align: center;
 
@@ -37,11 +41,13 @@ p {
 }
 p.mb-0 {
   color: #CB4335;
+  font-family: 'Dancing Script', cursive;
+  font-size: 25px;
 }
 
 .card{
   color: #D1F2EB;
-  font-size: 15px;
+  font-size: 20px;
   align-content: center;
   align-items: center;
   background-color: #145A32;
