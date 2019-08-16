@@ -5,7 +5,7 @@
   <title>Akan Name Calculator</title>
   <link rel="stylesheet" href="css/bootstrap.css" type="text/css">
   <link href="css/akan.css" rel="stylesheet" type="text/css">
-  <script src="scripts.js"></script>
+  <script src="./scripts.js"></script>
   <body>
     <div class="container">
       <div class="description">
@@ -35,28 +35,23 @@
         </div>
       </div>
     </div>
-    <div class="card">
-      <div class="card-title">
-        <h4><b>Insert gender here</b></h4>
-      </div>
-      <div class="card-body">
-        <div class="checkbox" name="gender"id="gender" >
-          <label for="male" >male:</label>
-          <input type="radio" name="gender" id="male" value="male" >
-          <label for="female">female:</label>
-          <input type="radio" name="gender" id="female" value="female"  >
-          <button  class="btn btn-success" onclick="getValue()" id="btn1" type="button" >submit</button>
-        </div>
-      </div>
-      <div class="dob">
-        <h4><b>When is your birthday ?</b></h4>
-        <div class="button">
-          <input type ="text" name = "birthday" VALUE = "DD">
-          <input type ="text" name = "birthday" VALUE = "MM">
-          <input type ="text" name = "birthday" VALUE = "YY">
-          <button  class="btn btn-success" onclick="getValue()" id="btn2" type="button" >submit</button>
-        </div>
-      </div>
+<form  method="post">
+  <h3>When is your birthday</h3>
+  <input type="text" name="day" value="" id="day" placeholder="dd">
+  <input type="text" name="month" value="" id="month" placeholder="mm">
+  <input type="text" name="year" value="" id="year" placeholder="yyyy">
+  <h3> insert gender</h3>
+  <input type="radio" name="gender" value="male" id="male"> Male<br>
+  <input type="radio" name="gender" value="female"  id="female"> Female<br>
+
+  <button type="button" class="btn btn-success" onclick="getValue()" name="button">submit</button>
+</form>
+
+
+
+
+
+
     </div>
   </div>
 </body>
