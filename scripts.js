@@ -16,8 +16,7 @@ function getValue()
     alert("enter valid month");
   }else if(year<1950 ){
     alert("enter birthday");
-  }
-  else if (male!==true && female!==true){
+  }else if (male!==true && female!==true){
     alert("oops! select gender");
   }
   var century =year.slice(0,2);
@@ -62,6 +61,4 @@ function getValue()
   }else if( birthday==6 && female==true) {
     document.getElementById("result").innerHTML="Here is your result: "+ femaleNames[6];
   }
-
-
 }

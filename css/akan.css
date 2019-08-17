@@ -1,108 +1,110 @@
 
 body{
-  margin: 15px;
-  background-color: #145A32;
+  margin:15px;
+  background-color:#145A32;
 }
 .jumbotron{
-  background-color: #F5B041;
-  align-content: center;
+  background-color:#F5B041;
+  align-content:center;
 
 }
-h1 {
+h1{
   color: #CB4335;
-  font-size: 60px;
-  font-family: 'Caesar Dressing', cursive;
-  text-align: center;
+  font-size:60px;
+  font-family:'Caesar Dressing', cursive;
+  text-align:center;
 }
-.jumbotron h3 {
+.jumbotron h3{
   color:#145A32;
-  font-size: 20px;
-  font-family: sans-serif;
-  text-align: center;
+  font-size:20px;
+  font-family:sans-serif;
+  text-align:center;
 }
 h3{
-  color: #F5B041;
+  color:#F5B041;
 }
 h4 {
-  color: #D1F2EB;
-  font-size: 20px;
+  color:#D1F2EB;
+  font-size:20px;
 }
 p {
-  color:#212121;
-  font-size: 20px;
-  font-family: 'Cherry Swash', cursive;
-  text-align: center;
+  color:black;
+  font-size:20px;
+  font-family:'Cherry Swash', cursive;
+  text-align:center;
 }
-p.mb-0 {
-  color: #CB4335;
-  font-family: 'Dancing Script', cursive;
+p.mb-0{
+  color:#CB4335;
+  font-family:'Dancing Script', cursive;
   font-size: 25px;
 }
+.blockquote-footer{
+  color:#145A32;
+}
 .card{
-  color: #D1F2EB;
-  font-size: 20px;
-  align-content: center;
-  align-items: center;
-  background-color: #145A32;
-  margin-top: 20px;
-  font-family: font-family: 'Cherry Swash', cursive;
+  color:#D1F2EB;
+  font-size:20px;
+  align-content:center;
+  align-items:center;
+  background-color:#145A32;
+  margin-top:20px;
+  font-family:font-family:'Cherry Swash',cursive;
 }
 img {
-  width: 100%;
+  width:100%;
 }
 .form{
-  border: 10px,solid;
-  border-radius: 5px;
+  border:10px,solid;
+  border-radius:5px;
   padding:8px;
-  outline: none;
-  margin-left: 90px;
-  margin-top: 30px;
+  outline:none;
+  margin-left:90px;
+  margin-top:30px;
 
 }
 .form button{
-  margin-left: 41%;
-  margin-top: 30px;
-  margin-bottom: 20px;
+  margin-left:41%;
+  margin-top:30px;
+  margin-bottom:20px;
 }
 .form:focus{
-  border-color: #F5B041;
-  box-shadow: 0 0 20px,#F5B041;
-  align-items: center;
+  border-color:#F5B041;
+  box-shadow:0 0 20px,#F5B041;
+  align-items:center;
 }
 .formheader{
-  margin-left: 35%;
-  margin-top: 30px;
-  margin-bottom: 20px;
-  font-family: 'Cherry Swash', cursive;
+  margin-left:35%;
+  margin-top:30px;
+  margin-bottom:20px;
+  font-family:'Cherry Swash', cursive;
 }
 .secondformheader{
   margin-left:40%;
   margin-top:30px;
   margin-bottom:20px;
-font-family: 'Cherry Swash', cursive;
+  font-family:'Cherry Swash', cursive;
 }
 .secondradiogender{
   margin-left: 43%;
   color:#A3E4D7;
-  font-size: 25px;
-  font-family: 'Cherry Swash', cursive;
+  font-size:25px;
+  font-family:'Cherry Swash', cursive;
 }
 .thirdradiogender{
-  margin-left: 41%;
+  margin-left:41%;
   color:#A3E4D7;
-  font-size: 25px;
-  font-family: 'Cherry Swash', cursive;
+  font-size:25px;
+  font-family:'Cherry Swash', cursive;
 }
 .radiogender{
-  margin-left: -95px;
+  margin-left:-95px;
   color:#F5B041;
 }
-.topnav {
+.topnav{
   background-color:#F5B041;
-margin-top: 40px;
+  margin-top:40px;
 }
-.topnav a {
-  /* float: left; */
+.topnav a{
   color: #BDC3C7;
   text-align: center;
   padding: 8px 16px;
@@ -115,7 +117,7 @@ margin-top: 40px;
   color: white;
   margin-left: 45%;
   font-family: 'Cherry Swash', cursive;
-
+  border-radius: 5px;
 }
 .topnav a:hover {
   background-color: #ddd;
