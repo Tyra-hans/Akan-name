@@ -23,7 +23,7 @@
               Literally: It is when you climb a good tree that we push you.</p>
               <footer class="blockquote-footer">akan proverb </footer>
             </blockquote>
-            
+
           </div>
         </div>
       </div>
@@ -41,14 +41,15 @@
     </div>
 <form  method="post">
   <h3>When is your birthday</h3>
-  <input type="text" name="day" value="" id="day" placeholder="dd">
-  <input type="text" name="month" value="" id="month" placeholder="mm">
-  <input type="text" name="year" value="" id="year" placeholder="yyyy">
+  <input type="text" name="day" value="" id="day" placeholder="dd" required>
+  <input type="text" name="month" value="" id="month" placeholder="mm" required>
+  <input type="text" name="year" value="" id="year" placeholder="yyyy" required>
   <h3> insert gender</h3>
-  <input type="radio" name="gender" value="male" id="male"> Male<br>
-  <input type="radio" name="gender" value="female"  id="female"> Female<br>
+  <input type="radio" name="gender" value="male" id="male" required> Male<br>
+  <input type="radio" name="gender" value="female"  id="female" required> Female<br>
 
   <button type="button" class="btn btn-success" onclick="getValue()" name="button">submit</button>
+  <p id="result"></p>
 </form>
 
 
