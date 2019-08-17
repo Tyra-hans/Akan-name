@@ -1,50 +1,42 @@
 
 body{
-/*background-image: url(akan1.jpg);
- background-repeat: no-repeat;
- background-size: cover;
-}*/
-margin: 15px;
-background-color: #145A32;
+  margin: 15px;
+  background-color: #145A32;
 }
 .jumbotron{
   background-color: #F5B041;
   align-content: center;
 }
-
-}
 h1 {
   color: #CB4335;
   font-size: 40px;
   font-family:sans-serif;
-  !text-align: center;
+  text-align: center;
 }
-
-h3 {
+.jumbotron h3 {
   color:#145A32;
   font-size: 20px;
   font-family: sans-serif;
   text-align: center;
-
+}
+h3{
+  color: #F5B041;
 }
 h4 {
   color: #D1F2EB;
   font-size: 20px;
-
 }
 p {
   color:#212121;
   font-size: 20px;
   font-family: cursive;
   text-align: center;
-
 }
 p.mb-0 {
   color: #CB4335;
   font-family: 'Dancing Script', cursive;
   font-size: 25px;
 }
-
 .card{
   color: #D1F2EB;
   font-size: 20px;
@@ -55,5 +47,74 @@ p.mb-0 {
 }
 img {
   width: 100%;
+}
+.form{
+  border: 10px,solid;
+  border-radius: 5px;
+  padding:8px;
+  outline: none;
+  margin-left: 90px;
+  margin-top: 30px;
 
+}
+.form button{
+  margin-left: 41%;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.form:focus{
+  border-color: #F5B041;
+  box-shadow: 0 0 20px,#F5B041;
+  align-items: center;
+}
+.formheader{
+  margin-left: 35%;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.secondformheader{
+  margin-left:40%;
+  margin-top:30px;
+  margin-bottom:20px;
+
+}
+.secondradiogender{
+  margin-left: 43%;
+  color:#F5B041;
+}
+.thirdradiogender{
+  margin-left: 42%;
+  color:#F5B041;
+}
+.radiogender{
+  margin-left: -70px;
+  color:#F5B041;
+}
+.topnav {
+  background-color:#F5B041;
+
+}
+.topnav a {
+  /* float: left; */
+  color: #BDC3C7;
+  text-align: center;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a.active {
+  background-color:#145A32;
+  color: white;
+  margin-left: 45%;
+  font-family: sans-serif;
+
+}
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.result{
+  color:#F5B041;
+  font-size: 30px;
+  margin-top: 20px;
 }
