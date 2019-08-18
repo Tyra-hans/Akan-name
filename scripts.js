@@ -1,4 +1,3 @@
-
 function getValue()
 {
   //this is to find out if the code works to this point
