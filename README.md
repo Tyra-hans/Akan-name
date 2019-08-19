@@ -13,6 +13,8 @@ The Akan people of Ghana frequently name their children after the day of the wee
 No need to install dependencies or run a server.This code depends on google fonts.
 ## Known Bugs
 No known bugs.
+## Behavior driven devlopment (BDD)
+This app is systematic from the Birth date to the gender input in that order.The user will interract with it easily as it is straight forward, informative and to the point. It is also Aesthetically pleasing. "The UI is inviting" -Agatha Butterfly Lubulellah.
 ## Technologies Used
 Used HTML to create forms and radio checkbox. Used bootstrap and a custom css stylesheet for styling. JavaScript for functionality.
 ## Support and contact details
