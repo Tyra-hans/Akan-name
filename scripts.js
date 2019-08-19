@@ -82,4 +82,5 @@ function getValue()
   }else if( birthday==6 && female==true) {
     document.getElementById("result").innerHTML="Here is your result: "+ femaleNames[6];
   }
+  document.getElementById("resetform").reset();
 }
