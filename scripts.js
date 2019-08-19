@@ -9,21 +9,37 @@ function getValue()
   var male = document.getElementById("male").checked;
   var female = document.getElementById("female").checked;
   // form validation
-  if (day.value===null){
+  if (day == ""){
     alert("enter valid day");
-  }else if((day<0 )|| (day>31)){
+    return false;
+  }else if(day<0 || day>31){
     alert("enter valid day");
-  }else if((day<0 )|| (day>31)){
+     console.log(day);
+     return false;
+  }else if (day==null){
       alert("enter valid day");
-  }else if (day.value===" "){
-      alert("enter valid day");
-  }else if((month<0 )||(month>31) || (month.value===null)||(month.value===" ") ){
+      return false;
+  }if(month<0){
     alert("enter valid month");
-  }else if(year<1950 ){
-    alert("enter birthday");
-  }else if (male!==true && female!==true){
+    return false;
+  }else if (month>12) {
+    alert("enter valid month");
+    return false;
+  }else if (month==null) {
+    alert("enter valid month");
+    return false;
+  }else if (month=="") {
+    alert("enter valid month");
+    return false;
+    console.log(month);
+  } if(year<1940 ){
+    alert("enter valid year");
+    return false;
+  } if (male!==true && female!==true){
     alert("oops! select gender");
+    return false;
   }
+
   var century =year.slice(0,2);
   // formula for day of birth
   var birthday = Math.floor(( ( (century/4) -2*century-1) + ((5*year/4) ) + ((26*(month+1)/10)) + day )% 7);
