@@ -9,9 +9,15 @@ function getValue()
   var male = document.getElementById("male").checked;
   var female = document.getElementById("female").checked;
   // form validation
-  if(day<0 || day>31 || day.value===null || name.value===" "){
+  if (day.value===null){
     alert("enter valid day");
-  }else if(month<0 || month>31 || month.value===null ){
+  }else if((day<0 )|| (day>31)){
+    alert("enter valid day");
+  }else if((day<0 )|| (day>31)){
+      alert("enter valid day");
+  }else if (day.value===" "){
+      alert("enter valid day");
+  }else if((month<0 )||(month>31) || (month.value===null)||(month.value===" ") ){
     alert("enter valid month");
   }else if(year<1950 ){
     alert("enter birthday");
