@@ -14,12 +14,15 @@ No need to install dependencies or run a server.This code depends on google font
 ## Known Bugs
 No known bugs.
 ## Behavior driven devlopment (BDD)
-This app is systematic from the Birth date to the gender input in that order.The user will interract with it easily as it is straight forward, informative and to the point. It is also Aesthetically pleasing. "The UI is inviting" -Agatha Butterfly Lubulellah.
+This app is systematic from the Birth date to the gender input in that order.The user will interract with it easily as it is straight forward, informative and to the point. It is also Aesthetically pleasing. "The UI is inviting" -Agatha Butterfly Lubulellah. This app includes ;
+* A form that allows the user to key in the date, month and year in numerals.(with validation)
+* A radio checkbox that allows the user to select their radiogender(with validation)
+* A submit button for results
 ## Technologies Used
 Used HTML to create forms and radio checkbox. Used bootstrap and a custom css stylesheet for styling. JavaScript for functionality.
 ## Support and contact details
 For feedback , complaints or queries :
  email: tyrahans17@hmail.com , or call : 0705834383
 ### License
-*This project is licensed under the terms of the MIT license.
+This project is licensed under the terms of the MIT license.
 Copyright (c) 2019 **Tyra Hans**
